@@ -10,8 +10,9 @@ MONTHLIYSAVINGRATE = 500 # Monatliche Sparrate
 VOLARITY = 0.15 # Volarität
 AVERAGEINFLATION = 0.02 # Durchschnittliche Inflation
 ANNUALTAXONYIELD = 0.004 # Jährliche steuern
-SELFPAID = SEEDCAPITAL + 0 # Tatsächlich eingezahltes Geld ohne Zinsen
+#LASS SIE SO WIE SIE SIND!:
 NUMBEROFRECORDS = 10000
+SELFPAID = SEEDCAPITAL + 0 # Tatsächlich eingezahltes Geld ohne Zinsen
 
 
 
