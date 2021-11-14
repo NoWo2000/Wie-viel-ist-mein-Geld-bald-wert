@@ -1,19 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import statistics
-# Anfangsvermögen
-# Anlagehorizont (Jahre)
-# Durchschnittliche Inflationsrate
-# Volarität
 
-# Median Endvermögen
-# Mittelwert Endvermögen
-
-# Endvermögen ohne Volarität
-# top 5%
-# top 25%
-# flop 5%
-# flop 25%
 
 SEEDCAPITAL = 5000 # Startkapital
 INVESTMENTHORIZON = 50 # Jahre des Anlegens
@@ -40,13 +28,10 @@ def yieldContinuedCalculator(InvestmentHorizon,AverageYield, Volarity, SeedCapit
     
     for x in range (0, NumberOfRecords):
         SeedCapital = SEEDCAPITAL
-        #print(f'------------------------------------------- Nr. {x} -------------------------------------------------------------')
         result.append([(SeedCapital+12*MonthlySavingrate)*(random_numbers[x][0]-AnnualTaxOnYield)])
-        #print(f'{SeedCapital}+{12}*{MonthlySavingrate}*{random_numbers[x][0]}-{AnnualTaxOnYield}={(SeedCapital+12*MonthlySavingrate)*random_numbers[x][0]}')
         
         for y in range (1, InvestmentHorizon): 
             result[x].append((result[x][y-1]+(12*MonthlySavingrate))*random_numbers[x][y])
-            #print(f'({result[x][y-1]} + {(12*MonthlySavingrate)})*{random_numbers[x][y]} = {(result[x][y-1]+(12*MonthlySavingrate))*random_numbers[x][y]}')
     
     return result
 
