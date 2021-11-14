@@ -16,9 +16,6 @@ SELFPAID = SEEDCAPITAL + 0 # Tatsächlich eingezahltes Geld ohne Zinsen
 
 
 
-
-
-
 def yieldContinuedCalculator(InvestmentHorizon,AverageYield, Volarity, SeedCapital, MonthlySavingrate, AnnualTaxOnYield, NumberOfRecords):
     
     random_numbers = []
