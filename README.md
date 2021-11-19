@@ -12,7 +12,8 @@ Stellen wir uns nicht alle diese Frage?
 - ANNUALTAXONYIELD = 0.004 # Jährliche steuern
 
 Danach führ den Code aus und sei begeistert. 
+Ein Beispiel nach aktuellem Stand:
 
-Bei bedarf nehm ich auch Spenden ;)
+![grafik](https://user-images.githubusercontent.com/56127795/142702726-a40c355e-89ea-4c5d-b35f-f998eecf9c6c.png)
 
-www.paypal.me/nowo2000
+Hilfslinien und weiter Funktionen folgen in Kürze!
